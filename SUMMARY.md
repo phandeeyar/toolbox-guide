@@ -9,4 +9,5 @@
 * [Using Google OCR for Myanmar Lang](using-google-ocr-for-myanmar-lang.md)
 * [Unicode Made Easy](unicode-made-easy.md)
 * [Getting Direct Link From Google Drive Image File](getting-direct-link-from-google-drive-image-file.md)
+* [Using Google OCR in sheet](using-google-ocr-in-sheet.md)
 
