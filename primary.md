@@ -72,7 +72,7 @@ Image နောက်က \(\) ထဲမှာ Image ရဲ့ Address ကို�
 
 ### Auto-increment number
 
-အလိုအလေျာက် Google sheet မှာနံပါတ်တွေဖြည့်ဖို့ဆိုရင် ဒီ Formula ကိုသုံးနိုင်ပါတယ်။
+အလိုအလျောက် Google sheet မှာနံပါတ်တွေဖြည့်ဖို့ဆိုရင် ဒီ Formula ကိုသုံးနိုင်ပါတယ်။
 
 ​=ArrayFormula\(IF\(ROW\(B:B\)=1,"no ID",IF\(ISBLANK\(B:B\),"",0+row\(B2:B\)-2\)\)\)  
 
