@@ -70,6 +70,13 @@ Google Sheet ထဲမှာ Image တွေလည်းထည့်လို့
 
 Image နောက်က \(\) ထဲမှာ Image ရဲ့ Address ကိုထည့်ပေးပါ။​ သူ့နောက် က 1,2,3,4 ထည့်လို့ရတယ်. တစ်ခုစီစမ်းကြည့်ပြီး ဘယ်လိုပြောင်းလဲသွားလဲကြည့်ကြည့်ပေါ့။
 
+### Auto-increment number
+
+အလိုအလေျာက် Google sheet မှာနံပါတ်တွေဖြည့်ဖို့ဆိုရင် ဒီ Formula ကိုသုံးနိုင်ပါတယ်။
+
+​=ArrayFormula\(IF\(ROW\(B:B\)=1,"no ID",IF\(ISBLANK\(B:B\),"",0+row\(B2:B\)-2\)\)\)  
+
+
 ### Import
 
 ### Average
