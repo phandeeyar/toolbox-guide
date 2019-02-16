@@ -16,6 +16,14 @@ Vlookup function ကတော့ အသုံးအများဆုံးပ�
 
 > =VLOOKUP\(cells to lookup, cells to reference, index of the cells to find, False\)
 
+## Small letter and add \(-\)
+
+စာလုံးအကြီးနဲ့ရေးထားတဲ့ နာမည်တို့ မြို့တို့ကို စာလုံးအသေးဖြစ်ပြောင်းပြီး space တွေနေရာမှာ - တွေပြောင်းလဲချင်တယ်ဆိုရင် ဒီ Formula ကို အလွယ်တကူ သုံးလို့ရပါတယ် ။ 
+
+> =LOWER\(SUBSTITUTE\(A2," ","-"\)\)
+
+
+
 ### **IMPORTRANGE**
 
 Importrange ကလည်း ဒေတာတွေကို sheet တစ်ခုကနေ တစ်ခုကို လည်းခေါ်ပြတာပဲ။ ဒါပေမယ့် Sheet တစ်ခုထဲမှာရှိတဲ့ Workbook တွေအချင်းချင်းမဟုတ်ပဲ။ ဖိုင်နှစ်ခုကွဲနေတာကိ‌ုတောင်မှ ဒေတာ ပို့လို့ရတယ်။ File 1 က‌ ဒေတာကို File 2 ထဲလှမ်းပို့မယ်ဆိုပါဆို့ ။ သုံးရတဲ့ Funtion က
